@@ -13,6 +13,51 @@ When applied to mutables, "+=" will modify object in place but
 list += list or dict (+= is tolerant)
 list = list + list   (+ is intolerant)
 
+e.g.,
+----------
+>>> x = 10
+>>> y = 10
+>>> id(x)
+1582465424
+>>> id(y)
+1582465424
+>>> x += 1
+>>> id(x)
+1582465456
+-----------
+
+>>> x = 10
+>>> y = 10
+>>> id(x)
+1582465424
+>>> id(y)
+1582465424
+>>> x = x + 1
+>>> id(x)
+1582465456
+----------
+>>> x = [2, 3]
+>>> id(x)
+2194172870024
+>>> x += [1]
+>>> x
+[2, 3, 1]
+>>> id(x)
+2194172870024
+----------
+>>> x = [2, 3]
+>>> id(x)
+2194172879624
+>>> x = x + [1]
+>>> x
+[2, 3, 1]
+>>> id(x)
+2194172879560
+---------
+list += list or tuple
+list + list
+tuple += tuple
+
 Iterables vs iterators:
 ----------------------
 Iterables:

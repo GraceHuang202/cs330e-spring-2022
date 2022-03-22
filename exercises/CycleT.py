@@ -48,7 +48,7 @@ class MyUnitTests (TestCase) :
                   x += [i]
                else:
                   break    
-         self.assertEqual(list(x), ['A', 'B', 'C', 'D', 'A', 'B', 'C', 'D', 'A', 'B',])  
+         self.assertEqual(list(x), ['A', 'B', 'C', 'D', 'A', 'B', 'C', 'D', 'A', 'B'])  
 
 if __name__ == "__main__" :
     main()

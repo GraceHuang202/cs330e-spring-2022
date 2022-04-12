@@ -1,5 +1,5 @@
 Functions.py:
-Recmmneded reading: https://www.programiz.com/article/python-self-why
+Recommended reading: https://www.programiz.com/article/python-self-why
 
 Decorators:
 ----------

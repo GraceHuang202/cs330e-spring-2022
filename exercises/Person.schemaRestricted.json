@@ -1,5 +1,12 @@
 {
   "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "age",
+    "address",
+    "children"
+  ],
   "properties": {
     "name": {
       "type": "string"
@@ -24,12 +31,6 @@
           "type": "string"
         } 
       }
-  },
-  "required": [
-    "name",
-    "age",
-    "address",
-    "children"
-  ],
-  "additionalProperties": false
+  }
+
 }

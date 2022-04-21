@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE BusinessCard [
   <!ELEMENT BusinessCard (name, phone*, email)>
   <!ELEMENT name (#PCDATA)>
@@ -7,3 +6,6 @@
   <!ELEMENT email (#PCDATA)>
   <!ATTLIST phone type (home|work|mobile) #REQUIRED>
 ]>
+
+is schema
+truugo.com to play with xml
